@@ -1,0 +1,10 @@
+Día,Evento,Carne,Leche,Campo o instalaciones
+Día 0,Nacimiento,A campo,A campo o corral,"Supervisión del parto, higiene del ombligo"
+Día 0–1,Primer calostro,Mamada natural,Por succión o mamadera,Instalaciones controladas en leche; campo en carne
+Día 1–5,Colocación de caravana oficial (definitiva),Sí,Sí,A campo o en brete/guachera
+Día 1–7,"Control del ombligo, signos vitales, primeros controles sanitarios",Básico,Estricto,A campo o instalaciones sanitarias
+Día 3–10,Ingreso al sistema (registro en SNIG),Productor o técnico registra,Idem,"Desde app, oficina rural o web del MGAP"
+Día 5–15,Vacunas iniciales (si aplica plan sanitario local),A criterio del plan,Generalmente sí,Depende de plan y condiciones epidemiológicas
+Día 7–20,Revisión general de salud,Visual,Ficha sanitaria formal,Instalaciones más sistematizadas en tambos
+Día 10–30,Reposición de caravana si se pierde,"Si se pierde, se repone",Idem,Se registra cambio de caravana
+Día 30–40,Límite para cargar nacimiento en SNIG,Obligatorio,Obligatorio,Registro online o con asistencia técnica
