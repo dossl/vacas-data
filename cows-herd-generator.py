@@ -209,5 +209,5 @@ df = pd.DataFrame({
     "Últ. antiparasitario": last_deworm,
 })
 
-out_path = "./Rebano_Ficticio_Uruguay_200_Bovinos.csv"
+out_path = "./csv/Rebano_Ficticio_Uruguay_200_Bovinos.csv"
 df.to_csv(out_path, index=False, encoding="utf-8")

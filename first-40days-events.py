@@ -71,6 +71,6 @@ events_40_days = [
 df_events_40 = pd.DataFrame(events_40_days)
 
 # Guardar como CSV (UTF-8, con separador coma)
-csv_path_40 = "./Eventos_Primeros_40_Dias_Ternero_Uruguay.csv"
+csv_path_40 = "./csv/Eventos_Primeros_40_Dias_Ternero_Uruguay.csv"
 df_events_40.to_csv(csv_path_40, index=False, encoding="utf-8")
 
