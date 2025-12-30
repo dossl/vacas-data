@@ -1,2 +1,3 @@
 pandas
 numpy
+caas_jupyter_tools

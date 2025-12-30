@@ -1,0 +1,15 @@
+Hito,Edad aproximada,Acciones del productor,Machos,Hembras,Dónde se realiza
+Nacimiento,Día 0,"Supervisión del parto, desinfección del ombligo, identificación.",Nacen a campo o en maternidad,Nacen a campo o en maternidad,Potrero / corral de maternidad
+Toma de calostro,Primeras 6-8 h,Asegurar que beban calostro (a mano o directamente).,Sí,Sí,Corral o potrero
+Separación de la madre,1-2 días,"Separación para manejo individual, control de sanidad.",Sí,Sí,Corral de terneros / guachera
+Guachera (cría artificial),2 días a ~60 días,Alimentación con leche o sustituto. Desparasitación. Vacunación.,Sí,Sí,Guachera (corrales individuales o grupales)
+Destete,60-75 días,Cese de alimentación láctea. Paso a alimentación sólida.,Sí,Sí,Corrales / potrero
+Recría,2-12 meses,"Pastoreo, alimentación balanceada, control sanitario.",En general vendidos o engorde propio,Recría para futuras vacas,Campo / instalaciones lecheras
+Selección,3-12 meses,"Venta de machos no útiles, selección de hembras para reposición.",Vendidos / engorde / descarte,Reposición,Manga / campo
+Primer servicio (hembras),15-18 meses,Inseminación o servicio natural.,-,Sí,Campo / brete / veterinario
+Preñez,Confirmada a los 2 meses,Diagnóstico de gestación. Preparación para lactancia.,-,Sí,Manga / campo
+Secado,60 días antes del parto,Detener ordeñe para regeneración mamaria.,-,Sí (vacas en producción),Potrero / sala de ordeñe
+Parición (2° ciclo),24-27 meses de vida,Supervisión y preparación para inicio de producción.,-,Sí,Potrero de maternidad
+Inicio ordeñe,Post parto (día 1-3),Ingreso a rutina de ordeñe 2 veces al día. Registro de producción.,-,Sí,Sala de ordeñe / campo
+Lactancia,300 días (aprox.),"Control sanitario, nutrición, control de mastitis.",-,Sí,Campo y sala de ordeñe
+Faena / descarte,Variable según sistema,Cuando baja la producción o hay problemas sanitarios.,A los 6-18 meses (engorde),Luego de 3-6 lactancias,Frigorífico / venta

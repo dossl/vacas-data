@@ -1,0 +1,7 @@
+Tipo,Raza,Edad (años),Edad (días),Edad promedio (días),Edad promedio inferior,Edad promedio superior
+Leche,Holando (Holstein),0,335,335,244,396
+Leche,Jersey,0,289,289,274,304
+Carne,Angus (Bos taurus),1,31,396,365,426
+Carne,Hereford (Bos taurus),1,31,396,365,426
+Carne,Brangus (cruza con influencia Bos indicus),1,49,414,401,428
+Carne,Braford (influencia Bos indicus),1,92,457,426,487

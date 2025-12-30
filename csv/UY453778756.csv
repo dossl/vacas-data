@@ -1,0 +1,58 @@
+Hito [UY453778756],Fecha y Hora,Ubicación,Nota
+Nacimiento,2020-10-12 12:53,Potrero / corral de maternidad,Registro del nacimiento.
+Separacion de la madre,2020-10-13 10:25,Corral de terneros / guachera,Separacion para manejo individual.
+Primer calostro,2020-10-13 14:49,Corral o potrero,Asegurar calostrado.
+Colocacion de caravana oficial,2020-10-14 17:37,Manga / campo,Identificacion oficial.
+Control de ombligo y signos vitales,2020-10-14 17:52,Instalaciones sanitarias,Revision sanitaria inicial.
+Ingreso al sistema (SNIG),2020-10-17 07:24,Oficina / app,Registro del nacimiento.
+Revision general de salud,2020-10-24 14:56,Campo / instalaciones,Chequeo clinico.
+Vacunas iniciales,2020-10-27 15:38,Manga / campo,Plan sanitario local.
+Guachera (cria artificial),2020-11-04 10:28,Guachera,Cria artificial y control sanitario.
+Carga de nacimiento en SNIG,2020-11-17 12:38,Oficina / app,Cierre de registro.
+Vacunacion clostridial,2020-12-11 10:09,Potrero 1 (7654321-12002),Vacunacion clostridial
+Destete,2020-12-15 08:26,Corrales / potrero,Paso a alimentacion solida.
+Vacunacion clostridial,2021-01-10 06:44,Potrero 1 (7654321-12002),Vacunacion clostridial
+Desparasitacion,2021-01-10 13:06,Potrero 1 (7654321-12002),Antiparasitario programado.
+Seleccion,2021-06-19 17:47,Manga / campo,Seleccion de reposicion o descarte.
+Desparasitacion,2021-07-09 15:55,Potrero 1 (7654321-12002),Antiparasitario programado.
+Primer Celo,2021-09-06 09:13,Potrero 1 (7654321-12002),Primer celo detectado.
+Recria,2021-09-29 10:53,Campo / instalaciones lecheras,Pastoreo y ganancia de peso.
+Segundo Celo,2021-09-29 15:45,Potrero 1 (7654321-12002),Segundo celo detectado.
+Tercer Celo,2021-10-25 10:43,Potrero 1 (7654321-12002),Tercer celo detectado.
+Servicio (IA o natural),2021-10-25 11:58,Potrero 1 (7654321-12002),Servicio exitoso.
+Prenez confirmada,2021-12-24 16:08,Potrero 1 (7654321-12002),Diagnostico de gestacion.
+Desparasitacion,2022-01-05 16:47,Potrero 1 (7654321-12002),Antiparasitario programado.
+Vacunacion clostridial,2022-01-10 18:18,Potrero 1 (7654321-12002),Refuerzo anual clostridial.
+Primer servicio (hembras),2022-03-16 16:13,Campo / brete / veterinario,Inicio de vida reproductiva.
+Desparasitacion,2022-07-04 14:55,Potrero 1 (7654321-12002),Antiparasitario programado.
+Paricion,2022-08-04 17:41,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2022-08-05 08:32,Potrero 1 (7654321-12002),Ingreso a rutina.
+Lactancia,2022-08-06 14:44,Potrero 1 (7654321-12002),Inicio de lactancia.
+Primer Celo posparto,2022-09-29 16:20,Potrero 1 (7654321-12002),Retorno al celo.
+Servicio (IA o natural),2022-09-29 17:07,Potrero 1 (7654321-12002),Servicio exitoso.
+Prenez confirmada,2022-11-28 18:22,Potrero 1 (7654321-12002),Diagnostico de gestacion.
+Desparasitacion,2022-12-31 09:47,Potrero 1 (7654321-12002),Antiparasitario programado.
+Vacunacion clostridial,2023-01-10 09:48,Potrero 1 (7654321-12002),Refuerzo anual clostridial.
+Desparasitacion,2023-06-29 16:35,Potrero 1 (7654321-12002),Antiparasitario programado.
+Paricion,2023-07-09 14:30,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2023-07-10 15:36,Potrero 1 (7654321-12002),Ingreso a rutina.
+Lactancia,2023-07-11 16:45,Potrero 1 (7654321-12002),Inicio de lactancia.
+Primer Celo posparto,2023-09-07 12:43,Potrero 1 (7654321-12002),Retorno al celo.
+Servicio (IA o natural),2023-09-07 17:57,Potrero 1 (7654321-12002),Servicio exitoso.
+Prenez confirmada,2023-11-06 14:18,Potrero 1 (7654321-12002),Diagnostico de gestacion.
+Desparasitacion,2023-12-26 12:15,Potrero 1 (7654321-12002),Antiparasitario programado.
+Vacunacion clostridial,2024-01-10 14:02,Potrero 1 (7654321-12002),Refuerzo anual clostridial.
+Paricion,2024-06-16 12:51,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2024-06-17 06:33,Potrero 1 (7654321-12002),Ingreso a rutina.
+Lactancia,2024-06-18 07:01,Potrero 1 (7654321-12002),Inicio de lactancia.
+Desparasitacion,2024-06-23 14:50,Potrero 1 (7654321-12002),Antiparasitario programado.
+Servicio (IA o natural),2024-08-18 06:42,Potrero 1 (7654321-12002),Servicio exitoso.
+Primer Celo posparto,2024-08-18 12:09,Potrero 1 (7654321-12002),Retorno al celo.
+Prenez confirmada,2024-10-17 06:12,Potrero 1 (7654321-12002),Diagnostico de gestacion.
+Desparasitacion,2024-12-20 18:51,Potrero 1 (7654321-12002),Antiparasitario programado.
+Vacunacion clostridial,2025-01-09 11:52,Potrero 1 (7654321-12002),Refuerzo anual clostridial.
+Paricion,2025-05-28 10:48,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2025-05-29 18:10,Potrero 1 (7654321-12002),Ingreso a rutina.
+Lactancia,2025-05-30 10:43,Potrero 1 (7654321-12002),Inicio de lactancia.
+Desparasitacion,2025-06-18 17:18,Potrero 1 (7654321-12002),Antiparasitario programado.
+Desparasitacion,2025-12-15 17:42,Potrero 1 (7654321-12002),Antiparasitario programado.

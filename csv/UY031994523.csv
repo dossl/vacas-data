@@ -1,0 +1,64 @@
+Hito [UY031994523],Fecha y Hora,Ubicación,Nota
+Nacimiento,2019-06-08 17:09,Potrero / corral de maternidad,Registro del nacimiento.
+Separacion de la madre,2019-06-09 06:17,Corral de terneros / guachera,Separacion para manejo individual.
+Primer calostro,2019-06-09 06:35,Corral o potrero,Asegurar calostrado.
+Colocacion de caravana oficial,2019-06-12 12:35,Manga / campo,Identificacion oficial.
+Control de ombligo y signos vitales,2019-06-13 08:24,Instalaciones sanitarias,Revision sanitaria inicial.
+Ingreso al sistema (SNIG),2019-06-14 10:13,Oficina / app,Registro del nacimiento.
+Vacunas iniciales,2019-06-18 16:05,Manga / campo,Plan sanitario local.
+Revision general de salud,2019-06-22 11:05,Campo / instalaciones,Chequeo clinico.
+Guachera (cria artificial),2019-07-04 16:38,Guachera,Cria artificial y control sanitario.
+Carga de nacimiento en SNIG,2019-07-16 17:53,Oficina / app,Cierre de registro.
+Vacunacion clostridial,2019-08-07 09:24,Potrero 3 (7654321-12004),Vacunacion clostridial
+Destete,2019-08-08 07:12,Corrales / potrero,Paso a alimentacion solida.
+Desparasitacion,2019-09-06 13:29,Potrero 3 (7654321-12004),Antiparasitario programado.
+Vacunacion clostridial,2019-09-06 15:53,Potrero 3 (7654321-12004),Vacunacion clostridial
+Recria,2019-12-26 13:13,Campo / instalaciones lecheras,Pastoreo y ganancia de peso.
+Seleccion,2020-02-23 10:58,Manga / campo,Seleccion de reposicion o descarte.
+Desparasitacion,2020-03-04 08:46,Potrero 3 (7654321-12004),Antiparasitario programado.
+Primer Celo,2020-03-13 09:47,Potrero 3 (7654321-12004),Primer celo detectado.
+Segundo Celo,2020-03-28 07:47,Potrero 3 (7654321-12004),Segundo celo detectado.
+Servicio (IA o natural),2020-04-26 09:44,Potrero 3 (7654321-12004),Servicio exitoso.
+Tercer Celo,2020-04-26 18:30,Potrero 3 (7654321-12004),Tercer celo detectado.
+Prenez confirmada,2020-06-25 15:45,Potrero 3 (7654321-12004),Diagnostico de gestacion.
+Desparasitacion,2020-08-31 18:22,Potrero 3 (7654321-12004),Antiparasitario programado.
+Primer servicio (hembras),2020-09-01 09:59,Campo / brete / veterinario,Inicio de vida reproductiva.
+Vacunacion clostridial,2020-09-05 09:31,Potrero 3 (7654321-12004),Refuerzo anual clostridial.
+Paricion,2021-02-03 09:25,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2021-02-04 09:35,Potrero 3 (7654321-12004),Ingreso a rutina.
+Lactancia,2021-02-05 11:49,Potrero 3 (7654321-12004),Inicio de lactancia.
+Desparasitacion,2021-02-27 08:08,Potrero 3 (7654321-12004),Antiparasitario programado.
+Primer Celo posparto,2021-03-19 10:24,Potrero 3 (7654321-12004),Retorno al celo.
+Servicio (IA o natural),2021-03-19 13:34,Potrero 3 (7654321-12004),Servicio exitoso.
+Prenez confirmada,2021-05-18 16:22,Potrero 3 (7654321-12004),Diagnostico de gestacion.
+Desparasitacion,2021-08-26 17:34,Potrero 3 (7654321-12004),Antiparasitario programado.
+Vacunacion clostridial,2021-09-05 14:41,Potrero 3 (7654321-12004),Refuerzo anual clostridial.
+Paricion,2021-12-27 10:16,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2021-12-28 11:32,Potrero 3 (7654321-12004),Ingreso a rutina.
+Lactancia,2021-12-29 13:29,Potrero 3 (7654321-12004),Inicio de lactancia.
+Primer Celo posparto,2022-02-16 07:51,Potrero 3 (7654321-12004),Retorno al celo.
+Servicio (IA o natural),2022-02-16 17:30,Potrero 3 (7654321-12004),Servicio exitoso.
+Desparasitacion,2022-02-22 13:11,Potrero 3 (7654321-12004),Antiparasitario programado.
+Prenez confirmada,2022-04-17 18:53,Potrero 3 (7654321-12004),Diagnostico de gestacion.
+Desparasitacion,2022-08-21 14:41,Potrero 3 (7654321-12004),Antiparasitario programado.
+Vacunacion clostridial,2022-09-05 16:21,Potrero 3 (7654321-12004),Refuerzo anual clostridial.
+Paricion,2022-11-26 11:58,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2022-11-27 09:23,Potrero 3 (7654321-12004),Ingreso a rutina.
+Lactancia,2022-11-28 11:26,Potrero 3 (7654321-12004),Inicio de lactancia.
+Primer Celo posparto,2023-01-18 06:36,Potrero 3 (7654321-12004),Retorno al celo.
+Servicio (IA o natural),2023-01-18 09:47,Potrero 3 (7654321-12004),Servicio exitoso.
+Desparasitacion,2023-02-17 06:33,Potrero 3 (7654321-12004),Antiparasitario programado.
+Prenez confirmada,2023-03-19 08:01,Potrero 3 (7654321-12004),Diagnostico de gestacion.
+Desparasitacion,2023-08-16 06:53,Potrero 3 (7654321-12004),Antiparasitario programado.
+Vacunacion clostridial,2023-09-05 10:48,Potrero 3 (7654321-12004),Refuerzo anual clostridial.
+Paricion,2023-10-28 10:35,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2023-10-29 15:37,Potrero 3 (7654321-12004),Ingreso a rutina.
+Lactancia,2023-10-30 17:26,Potrero 3 (7654321-12004),Inicio de lactancia.
+Servicio (IA o natural),2024-01-05 10:09,Potrero 3 (7654321-12004),Servicio exitoso.
+Desparasitacion,2024-02-12 07:52,Potrero 3 (7654321-12004),Antiparasitario programado.
+Prenez confirmada,2024-03-05 09:21,Potrero 3 (7654321-12004),Diagnostico de gestacion.
+Desparasitacion,2024-08-10 16:03,Potrero 3 (7654321-12004),Antiparasitario programado.
+Vacunacion clostridial,2024-09-04 13:46,Potrero 3 (7654321-12004),Refuerzo anual clostridial.
+Desparasitacion,2025-02-06 18:00,Potrero 3 (7654321-12004),Antiparasitario programado.
+Desparasitacion,2025-08-05 12:08,Potrero 3 (7654321-12004),Antiparasitario programado.
+Vacunacion clostridial,2025-09-04 16:47,Potrero 3 (7654321-12004),Refuerzo anual clostridial.

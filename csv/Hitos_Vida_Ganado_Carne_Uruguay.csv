@@ -1,0 +1,13 @@
+Hito,Edad aproximada,Acciones del productor,Machos,Hembras,Dónde se realiza
+Nacimiento,Día 0,"Supervisar parto, desinfección de ombligo, identificación (caravana).",Nacen en pariciones naturales,Nacen en pariciones naturales,Potrero de parición
+Toma de calostro,Primeras 6–8 h,Verificar que el ternero mame. Asistencia si es necesario.,Calostro materno,Calostro materno,Campo
+Lactancia,0 a 6–8 meses,"Permanencia con la madre, chequeo de salud, control parasitario.",Lactancia natural,Lactancia natural,Campo
+Castración (si aplica),1–3 meses,"Castración (técnica quirúrgica o elastrador), registro y control sanitario.",Sí (machos no reproductores),No,Brete / campo
+Marcación / caravanas,2–4 meses,"Colocación de caravana oficial, vacunas, registro en SNIG.",Sí,Sí,Manga / campo
+Destete,6–8 meses,Separación de la madre. Suplementación según categoría.,Destete,Destete,Potrero de destete
+Recría,8–18 meses,"Ganancia de peso, control sanitario, trazabilidad.",Recría para engorde o exportación en pie,Recría para reposición o venta,Campo / pasturas mejoradas
+Selección de vientres,12–18 meses,Evaluación fenotípica y sanitaria para reposición.,-,Algunas se eligen como futuras madres,Manga / potrero
+Engorde / terminación,18–36 meses,Finalización a campo o con suplemento. Control de peso y condición corporal.,"Sí, según sistema",Si no son seleccionadas como madres,Campo / suplemento (feedlot ocasional)
+Servicio / inseminación (hembras de reposición),15–18 meses en adelante,Primer celo. Servicio natural o IA para hembras seleccionadas.,-,Sí (vientres de reposición),Campo / brete
+Faena,24–36 meses (promedio),Traslado a frigorífico con documentación sanitaria y trazabilidad.,Sí,Sí (si no se quedan como madres),Frigorífico habilitado (INAC)
+Descarte (vacas adultas),4–10 años,"Retiro por baja productividad, enfermedad o edad; venta o envío a faena.",-,Sí,Frigorífico o venta a campo
