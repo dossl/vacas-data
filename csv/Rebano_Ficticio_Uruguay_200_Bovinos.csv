@@ -1,0 +1,201 @@
+Caravana,Fecha nacimiento,Edad (años),Edad (días),Sexo,Raza,Uso,DICOSE-Padrón (ubicación actual),Lugar,Manga,Estado reproductivo,N° partos,N° gestaciones,Peso (kg),BCS (1-5),Producción leche (L/día),Salud,Enfermedad (si aplica),Últ. vacuna clostridial,Últ. antiparasitario
+UY686579303,2017-04-16,8,254,Hembra,Holando,Leche,7654321-12005,Potrero 4,,Vacía (ciclo),1,1,645,2.5,,Sana,,2025-07-13,2025-11-30
+UY119540831,2023-08-17,2,130,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Seca,1,2,417,2.6,,Sana,,2025-11-14,2025-11-04
+UY026855092,2022-06-09,3,199,Macho,Kiwi Cross,Leche,7654321-12003,Potrero 2,,Toro,,,551,3.0,,Sana,,2025-09-06,2025-08-22
+UY796233790,2022-11-20,3,35,Hembra,Jersey,Leche,7654321-12004,Potrero 3,,Gestante,2,3,529,2.6,,Sana,,2025-02-17,2025-08-06
+UY295310485,2022-12-25,3,0,Hembra,Jersey,Leche,7654321-12005,Potrero 4,,Posparto (≤30 días),1,1,535,3.7,,Sana,,2025-03-24,2025-09-10
+UY262950628,2017-07-07,8,172,Hembra,Jersey,Leche,7654321-12003,Potrero 2,,Vacía (ciclo),4,4,622,2.9,,Sana,,2025-10-03,2025-08-24
+UY239670711,2021-06-30,4,178,Hembra,Holando,Leche,7654321-12003,Potrero 2,,Lactando,3,3,572,2.7,29,Sana,,2025-09-27,2025-09-07
+UY149827706,2020-01-16,5,344,Hembra,Holando,Leche,7654321-12001,Tambo Antonina,,Lactando,4,4,596,2.7,29,Sana,,2025-04-14,2025-09-16
+UY790779946,2024-09-14,1,101,Hembra,Jersey,Leche,7654321-12003,Potrero 2,,Vaquillona (recría),0,0,228,2.8,,Sana,,2025-12-13,2025-12-08
+UY110053353,2022-08-04,3,143,Hembra,Kiwi Cross,Leche,7654321-12003,Potrero 2,,Lactando,1,1,526,2.8,22,Sana,,2025-11-01,2025-10-17
+UY726600539,2025-01-28,0,330,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Ternera,0,0,57,2.3,,Sana,,2025-04-28,2025-10-25
+UY795285932,2021-12-03,4,22,Hembra,Holando,Leche,7654321-12003,Potrero 2,,Lactando,2,2,575,3.4,27,Sana,,2025-03-02,2025-08-14
+UY957970516,2020-02-19,5,310,Hembra,Holando,Leche,7654321-12001,Tambo Antonina,,Lactando,1,1,602,3.0,25,Sana,,2025-05-18,2025-10-20
+UY585582861,2017-04-19,8,251,Hembra,Kiwi Cross,Leche,7654321-12001,Tambo Antonina,,Vacía (ciclo),0,0,640,3.0,,Sana,,2025-07-16,2025-12-03
+UY093349856,2017-12-27,7,364,Macho,Holando,Leche,7654321-12004,Potrero 3,,Toro,,,672,3.3,,Sana,,2025-03-25,2025-08-17
+UY634036506,2025-08-16,0,130,Hembra,Kiwi Cross,Leche,7654321-12005,Potrero 4,,Ternera,0,0,56,2.6,,Sana,,2025-11-14,2025-11-14
+UY453035110,2021-05-14,4,225,Macho,Jersey,Leche,7654321-12005,Potrero 4,,Toro,,,592,2.7,,Sana,,2025-08-11,2025-07-22
+UY034126396,2023-11-16,2,39,Hembra,Holando,Leche,7654321-12001,Tambo Antonina,,Vacía (ciclo),1,1,440,3.2,,Sana,,2025-02-13,2025-08-07
+UY031994523,2019-06-08,6,201,Hembra,Jersey,Leche,7654321-12004,Potrero 3,,Gestante,4,5,607,3.0,,Sana,,2025-09-04,2025-08-05
+UY100604502,2021-10-31,4,55,Hembra,Holando,Leche,7654321-12004,Potrero 3,,Posparto (≤30 días),1,1,545,3.1,,Sana,,2025-01-28,2025-07-12
+UY234760738,2018-03-03,7,298,Hembra,Holando,Leche,7654321-12004,Potrero 3,,Seca,5,6,613,3.0,,Sana,,2025-05-30,2025-10-22
+UY249817734,2019-04-27,6,243,Hembra,Jersey,Leche,7654321-12005,Potrero 4,Manga Potrero 4,Vacía (ciclo),2,2,612,2.4,,Enferma,Retencion de placenta,2025-07-24,2025-12-21
+UY542621108,2022-08-27,3,120,Hembra,Jersey,Leche,7654321-12001,Tambo Antonina,,Vacía (ciclo),2,2,508,3.5,,Sana,,2025-11-24,2025-11-09
+UY646412689,2023-05-14,2,225,Hembra,Holando,Leche,7654321-12003,Potrero 2,,Lactando,1,1,429,3.4,20,Sana,,2025-08-11,2025-08-01
+UY028492780,2019-08-14,6,134,Hembra,Jersey,Leche,7654321-12004,Potrero 3,,Vacía (ciclo),5,5,606,2.1,,Sana,,2025-11-10,2025-10-11
+UY602632297,2022-09-27,3,89,Hembra,Kiwi Cross,Leche,7654321-12005,Potrero 4,,Posparto (≤30 días),1,1,526,3.5,,Sana,,2024-12-25,2025-12-10
+UY213500298,2024-09-21,1,94,Macho,Kiwi Cross,Leche,7654321-12003,Potrero 2,,Torete,,,246,3.8,,Sana,,2025-12-20,2025-12-15
+UY768820204,2025-12-03,0,21,Hembra,Jersey,Leche,7654321-12002,Potrero 1,,Ternera,0,0,66,3.4,,Sana,,,
+UY697808098,2019-09-07,6,110,Hembra,Kiwi Cross,Leche,7654321-12004,Potrero 3,,Gestante,3,4,603,2.9,,Sana,,2025-12-04,2025-11-04
+UY753041955,2023-12-08,2,17,Hembra,Kiwi Cross,Leche,7654321-12001,Tambo Antonina,,Vacía (ciclo),1,1,433,2.8,,Sana,,2025-03-07,2025-08-29
+UY585126461,2018-01-11,7,349,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Lactando,2,2,617,3.3,20,Sana,,2025-04-09,2025-09-01
+UY450455977,2024-09-06,1,109,Hembra,Holando,Leche,7654321-12004,Potrero 3,,Vaquillona (recría),0,0,231,2.8,,Sana,,2025-12-05,2025-11-30
+UY236696312,2023-01-07,2,352,Hembra,Kiwi Cross,Leche,7654321-12003,Potrero 2,Manga Potrero 2,Lactando,1,1,435,2.6,12,Enferma,Mastitis clinica,2025-04-06,2025-09-23
+UY482334538,2018-12-23,7,3,Hembra,Kiwi Cross,Leche,7654321-12003,Potrero 2,,Lactando,2,2,635,3.0,15,Sana,,2025-03-21,2025-08-18
+UY632719211,2020-05-17,5,222,Hembra,Jersey,Leche,7654321-12001,Tambo Antonina,,Vacía (ciclo),3,3,586,3.4,,Sana,,2025-08-14,2025-07-20
+UY298704996,2018-06-17,7,192,Hembra,Kiwi Cross,Leche,7654321-12004,Potrero 3,,Gestante,3,4,608,2.9,,Sana,,2025-09-13,2025-08-09
+UY869119330,2023-04-24,2,245,Hembra,Holando,Leche,7654321-12005,Potrero 4,,Vacía (ciclo),0,0,436,2.8,,Sana,,2025-07-22,2025-07-12
+UY933404114,2021-01-13,4,346,Hembra,Holando,Leche,7654321-12004,Potrero 3,,Vacía (ciclo),3,3,552,3.1,,Sana,,2025-04-12,2025-09-19
+UY006977991,2025-06-18,0,189,Hembra,Jersey,Leche,7654321-12005,Potrero 4,,Ternera,0,0,60,3.7,,Sana,,2025-09-16,2025-09-16
+UY814763202,2017-10-02,8,85,Hembra,Holando,Leche,7654321-12005,Potrero 4,,Gestante,4,5,615,3.0,,Sana,,2024-12-29,2025-11-19
+UY865241839,2018-06-30,7,179,Hembra,Holando,Leche,7654321-12003,Potrero 2,,Vacía (ciclo),6,6,624,2.9,,Sana,,2025-09-26,2025-08-22
+UY171432881,2017-10-02,8,85,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Gestante,0,1,643,3.3,,Sana,,2024-12-29,2025-11-19
+UY749621470,2024-06-10,1,197,Hembra,Kiwi Cross,Leche,7654321-12004,Potrero 3,,Vaquillona (recría),0,0,235,3.3,,Sana,,2025-09-08,2025-09-03
+UY453778756,2020-10-12,5,74,Hembra,Holando,Leche,7654321-12002,Potrero 1,,Lactando,4,4,592,2.7,26,Sana,,2025-01-09,2025-12-15
+UY365341213,2022-07-06,3,172,Hembra,Jersey,Leche,7654321-12005,Potrero 4,,Seca,0,1,515,2.8,,Sana,,2025-10-03,2025-09-18
+UY298362082,2018-02-05,7,324,Hembra,Jersey,Leche,7654321-12002,Potrero 1,,Lactando,1,1,634,3.4,19,Sana,,2025-05-04,2025-09-26
+UY166944844,2021-10-18,4,68,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Gestante,3,4,564,3.1,,Sana,,2025-01-15,2025-06-29
+UY231191390,2017-03-19,8,282,Hembra,Holando,Leche,7654321-12002,Potrero 1,Manga Potrero 1,Vacía (ciclo),0,0,622,1.5,,Enferma,Hipocalcemia (fiebre de leche),2025-06-15,2025-11-02
+UY819795579,2024-03-18,1,281,Hembra,Kiwi Cross,Leche,7654321-12005,Potrero 4,,Vaquillona (recría),0,0,225,3.2,,Sana,,2025-06-16,2025-12-08
+UY361415646,2020-04-26,5,243,Hembra,Jersey,Leche,7654321-12005,Potrero 4,,Gestante,4,5,577,3.3,,Sana,,2025-07-24,2025-06-29
+UY109747451,2018-01-27,7,333,Macho,Holando,Leche,7654321-12001,Tambo Antonina,,Toro,,,675,2.7,,Sana,,2025-04-25,2025-09-17
+UY099585092,2019-12-02,6,24,Hembra,Kiwi Cross,Leche,7654321-12003,Potrero 2,,Gestante,2,3,621,3.2,,Sana,,2025-02-28,2025-08-02
+UY407943839,2022-06-06,3,202,Hembra,Kiwi Cross,Leche,7654321-12003,Potrero 2,,Vacía (ciclo),2,2,519,3.7,,Sana,,2025-09-03,2025-08-19
+UY103848421,2019-04-25,6,245,Hembra,Jersey,Leche,7654321-12001,Tambo Antonina,,Lactando,3,3,624,3.1,16,Sana,,2025-07-22,2025-12-19
+UY385451171,2024-05-03,1,235,Hembra,Kiwi Cross,Leche,7654321-12004,Potrero 3,,Vaquillona (recría),0,0,227,2.8,,Sana,,2025-08-01,2025-07-27
+UY909990148,2019-07-06,6,173,Hembra,Jersey,Leche,7654321-12005,Potrero 4,,Vacía (ciclo),5,5,604,2.8,,Sana,,2025-10-02,2025-09-02
+UY369319644,2020-05-03,5,236,Hembra,Jersey,Leche,7654321-12005,Potrero 4,,Vacía (ciclo),1,1,595,3.0,,Sana,,2025-07-31,2025-07-06
+UY648245888,2025-04-27,0,241,Hembra,Holando,Leche,7654321-12005,Potrero 4,,Ternera,0,0,58,3.1,,Sana,,2025-07-26,2025-07-26
+UY284027113,2020-05-23,5,216,Hembra,Holando,Leche,7654321-12005,Potrero 4,,Gestante,2,3,578,3.0,,Sana,,2025-08-20,2025-07-26
+UY866647391,2018-04-01,7,269,Hembra,Kiwi Cross,Leche,7654321-12003,Potrero 2,Manga Potrero 2,Gestante,4,5,609,2.7,,Enferma,Mastitis clinica,2025-06-28,2025-11-20
+UY046654552,2018-10-30,7,57,Hembra,Jersey,Leche,7654321-12004,Potrero 3,,Posparto (≤30 días),1,1,606,2.9,,Sana,,2025-01-26,2025-12-22
+UY783543540,2017-12-01,8,25,Hembra,Jersey,Leche,7654321-12001,Tambo Antonina,,Gestante,1,2,645,3.1,,Sana,,2025-02-27,2025-07-22
+UY493303705,2022-04-01,3,268,Hembra,Holando,Leche,7654321-12003,Potrero 2,,Vacía (ciclo),0,0,506,3.3,,Sana,,2025-06-29,2025-12-11
+UY575770529,2020-02-15,5,314,Hembra,Holando,Leche,7654321-12004,Potrero 3,,Lactando,1,1,584,2.6,26,Sana,,2025-05-14,2025-10-16
+UY134031070,2022-03-05,3,295,Hembra,Jersey,Leche,7654321-12004,Potrero 3,,Vacía (ciclo),2,2,520,3.0,,Sana,,2025-06-02,2025-11-14
+UY990307112,2017-10-04,8,83,Hembra,Holando,Leche,7654321-12001,Tambo Antonina,,Seca,4,5,618,3.0,,Sana,,2024-12-31,2025-11-21
+UY406448196,2021-12-07,4,18,Hembra,Kiwi Cross,Leche,7654321-12004,Potrero 3,,Seca,2,3,548,3.3,,Sana,,2025-03-06,2025-08-18
+UY084611066,2018-12-25,7,1,Hembra,Jersey,Leche,7654321-12005,Potrero 4,,Lactando,3,3,612,2.9,18,Sana,,2025-03-23,2025-08-20
+UY592749116,2023-11-10,2,45,Hembra,Holando,Leche,7654321-12001,Tambo Antonina,,Vacía (ciclo),0,0,443,3.2,,Sana,,2025-02-07,2025-08-01
+UY314797776,2025-11-20,0,34,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Ternera,0,0,62,3.4,,Sana,,,
+UY890566476,2019-10-24,6,63,Hembra,Jersey,Leche,7654321-12003,Potrero 2,,Gestante,3,4,599,2.4,,Sana,,2025-01-20,2025-12-21
+UY674996843,2017-05-08,8,232,Macho,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Toro,,,677,3.4,,Sana,,2025-08-04,2025-12-22
+UY664130526,2020-08-17,5,130,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Gestante,3,4,589,2.7,,Sana,,2025-11-14,2025-10-20
+UY950746571,2021-08-22,4,125,Hembra,Jersey,Leche,7654321-12001,Tambo Antonina,,Seca,1,2,556,2.6,,Sana,,2025-11-19,2025-10-30
+UY925250736,2017-07-26,8,153,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Lactando,4,4,636,2.0,15,Sana,,2025-10-22,2025-09-12
+UY388302652,2023-03-09,2,291,Macho,Holando,Leche,7654321-12001,Tambo Antonina,,Toro,,,479,2.7,,Sana,,2025-06-06,2025-11-23
+UY619927151,2018-10-29,7,58,Hembra,Holando,Leche,7654321-12001,Tambo Antonina,,Seca,6,7,628,3.0,,Sana,,2025-01-25,2025-12-21
+UY206468299,2022-11-21,3,34,Hembra,Holando,Leche,7654321-12003,Potrero 2,,Lactando,2,2,527,2.9,26,Sana,,2025-02-18,2025-08-07
+UY756528252,2021-11-15,4,40,Macho,Kiwi Cross,Leche,7654321-12005,Potrero 4,,Toro,,,620,2.8,,Sana,,2025-02-12,2025-07-27
+UY074684276,2024-01-22,1,337,Hembra,Holando,Leche,7654321-12002,Potrero 1,,Vaquillona (recría),0,0,222,2.6,,Sana,,2025-04-21,2025-10-13
+UY049203558,2019-04-11,6,259,Hembra,Kiwi Cross,Leche,7654321-12005,Potrero 4,,Lactando,2,2,608,3.3,20,Sana,,2025-07-08,2025-12-05
+UY710026086,2018-05-18,7,222,Hembra,Holando,Leche,7654321-12002,Potrero 1,,Lactando,2,2,623,3.3,23,Sana,,2025-08-14,2025-07-10
+UY244703907,2021-08-28,4,119,Hembra,Jersey,Leche,7654321-12003,Potrero 2,,Vacía (ciclo),3,3,568,3.1,,Sana,,2025-11-25,2025-11-05
+UY830075810,2025-07-16,0,161,Hembra,Kiwi Cross,Leche,7654321-12005,Potrero 4,,Ternera,0,0,68,2.3,,Sana,,2025-10-14,2025-10-14
+UY310727955,2025-06-06,0,201,Hembra,Kiwi Cross,Leche,7654321-12001,Tambo Antonina,,Ternera,0,0,49,3.8,,Sana,,2025-09-04,2025-09-04
+UY085675980,2020-07-22,5,156,Hembra,Holando,Leche,7654321-12002,Potrero 1,,Lactando,3,3,603,3.1,23,Sana,,2025-10-19,2025-09-24
+UY918390409,2023-04-04,2,265,Hembra,Jersey,Leche,7654321-12002,Potrero 1,,Vacía (ciclo),1,1,428,3.2,,Sana,,2025-07-02,2025-12-19
+UY249957310,2019-08-21,6,127,Hembra,Holando,Leche,7654321-12002,Potrero 1,,Gestante,2,3,615,2.5,,Sana,,2025-11-17,2025-10-18
+UY930379756,2023-10-01,2,85,Macho,Holando,Leche,7654321-12001,Tambo Antonina,,Toro,,,452,3.0,,Sana,,2024-12-29,2025-12-19
+UY108449460,2024-09-25,1,90,Hembra,Jersey,Leche,7654321-12001,Tambo Antonina,Manga Larga,Vaquillona (recría),0,0,231,2.7,,Enferma,Hipocalcemia (fiebre de leche),2025-12-24,2025-12-19
+UY408157429,2022-06-28,3,180,Hembra,Jersey,Leche,7654321-12002,Potrero 1,,Gestante,2,3,520,3.0,,Sana,,2025-09-25,2025-09-10
+UY298471886,2023-03-14,2,286,Hembra,Holando,Leche,7654321-12004,Potrero 3,,Gestante,1,2,434,3.3,,Sana,,2025-06-11,2025-11-28
+UY486845604,2019-07-26,6,153,Macho,Jersey,Leche,7654321-12003,Potrero 2,,Toro,,,657,3.5,,Sana,,2025-10-22,2025-09-22
+UY682560971,2018-05-28,7,212,Hembra,Holando,Leche,7654321-12004,Potrero 3,,Gestante,3,4,635,2.5,,Sana,,2025-08-24,2025-07-20
+UY895619255,2025-01-21,0,337,Hembra,Kiwi Cross,Leche,7654321-12003,Potrero 2,,Ternera,0,0,75,3.3,,Sana,,2025-04-21,2025-10-18
+UY391735568,2023-07-30,2,148,Hembra,Holando,Leche,7654321-12001,Tambo Antonina,,Gestante,0,1,423,3.1,,Sana,,2025-10-27,2025-10-17
+UY174648506,2023-01-13,2,346,Hembra,Kiwi Cross,Leche,7654321-12002,Potrero 1,,Lactando,1,1,416,3.0,12,Sana,,2025-04-12,2025-09-29
+UY397478786,2023-10-25,2,61,Hembra,Holando,Leche,7654321-12004,Potrero 3,,Vacía (ciclo),1,1,437,2.5,,Sana,,2025-01-22,2025-07-16
+UY381469012,2019-10-13,6,74,Hembra,Jersey,Leche,7654321-12001,Tambo Antonina,Manga Larga,Gestante,1,2,606,3.1,,Enferma,Cojera (pododermatitis),2025-01-09,2025-12-10
+UY224956459,2023-11-22,2,33,Hembra,Kiwi Cross,Leche,7654321-12004,Potrero 3,,Gestante,1,2,421,3.1,,Sana,,2025-02-19,2025-08-13
+UY719595113,2019-11-11,6,45,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Lactando,1,1,589,2.6,,Sana,,2025-02-07,2025-07-12
+UY286665249,2024-12-10,1,14,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Vaquillona (recría),0,0,249,3.1,,Sana,,2025-03-10,2025-09-06
+UY753573823,2024-08-19,1,127,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Vaquillona (recría),0,0,265,3.3,,Sana,,2025-11-17,2025-11-12
+UY733953718,2017-06-17,8,192,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Vacía (ciclo),7,7,602,3.4,,Sana,,2025-09-13,2025-08-04
+UY695822698,2022-10-01,3,85,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Posparto (≤30 días),1,1,512,3.2,,Sana,,2024-12-29,2025-12-14
+UY076667861,2020-05-02,5,237,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Lactando,3,3,566,3.3,,Sana,,2025-07-30,2025-07-05
+UY654049436,2025-10-21,0,64,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Ternera,0,0,58,3.9,,Sana,,2025-12-20,
+UY681802744,2018-12-13,7,13,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Gestante,6,7,606,3.7,,Sana,,2025-03-11,2025-08-08
+UY183758720,2022-03-28,3,272,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Gestante,0,1,496,2.9,,Sana,,2025-06-25,2025-12-07
+UY573528321,2022-10-29,3,57,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Gestante,1,2,502,3.0,,Sana,,2025-01-26,2025-07-15
+UY782893941,2020-06-06,5,202,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Gestante,0,1,583,3.2,,Sana,,2025-09-03,2025-08-09
+UY262863730,2018-08-08,7,140,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Gestante,4,5,605,2.6,,Sana,,2025-11-04,2025-09-30
+UY175452091,2021-11-20,4,35,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Gestante,0,1,536,2.7,,Sana,,2025-02-17,2025-08-01
+UY496348124,2017-05-26,8,214,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Lactando,7,7,596,2.6,,Sana,,2025-08-22,2025-07-13
+UY407437181,2022-10-19,3,67,Hembra,Braford,Carne,7654321-12006,Potrero 5,Manga Potrero 5,Gestante,1,2,497,2.0,,Enferma,Herida/absceso con drenaje,2025-01-16,2025-07-05
+UY289854268,2021-10-24,4,62,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Posparto (≤30 días),1,1,533,3.7,,Sana,,2025-01-21,2025-07-05
+UY993631208,2018-10-02,7,85,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Seca,3,4,591,2.9,,Sana,,2024-12-29,2025-11-24
+UY687194506,2024-11-28,1,26,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Vaquillona (recría),0,0,265,2.8,,Sana,,2025-02-26,2025-08-25
+UY738908273,2021-05-01,4,238,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Seca,1,2,528,3.5,,Sana,,2025-07-29,2025-07-09
+UY598020238,2024-11-01,1,53,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Vaquillona (recría),0,0,265,3.0,,Sana,,2025-01-30,2025-07-29
+UY235809993,2019-08-02,6,146,Hembra,Angus,Carne,7654321-12006,Potrero 5,Manga Potrero 5,Gestante,2,3,602,2.7,,Enferma,Queratoconjuntivitis infecciosa (pinkeye),2025-10-29,2025-09-29
+UY735098955,2024-12-11,1,13,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Vaquillona (recría),0,0,261,2.9,,Sana,,2025-03-11,2025-09-07
+UY348195935,2021-01-23,4,336,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Vacía (ciclo),3,3,539,2.6,,Sana,,2025-04-22,2025-09-29
+UY905005353,2019-09-29,6,88,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Lactando,2,2,577,3.4,,Sana,,2024-12-26,2025-11-26
+UY824970419,2017-08-03,8,145,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Vacía (ciclo),6,6,616,2.7,,Sana,,2025-10-30,2025-09-20
+UY833223566,2020-04-06,5,263,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Seca,3,4,561,3.0,,Sana,,2025-07-04,2025-12-06
+UY060062915,2017-06-30,8,179,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Lactando,1,1,615,2.9,,Sana,,2025-09-26,2025-08-17
+UY245938494,2020-01-03,5,357,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Lactando,1,1,575,3.3,,Sana,,2025-04-01,2025-09-03
+UY882403818,2025-06-07,0,200,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Ternera,0,0,74,3.0,,Sana,,2025-09-05,2025-09-05
+UY034467368,2020-11-17,5,38,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Gestante,2,3,555,3.2,,Sana,,2025-02-14,2025-07-24
+UY864411347,2023-11-06,2,49,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Gestante,0,1,406,2.7,,Sana,,2025-02-03,2025-07-28
+UY338715135,2017-10-30,8,57,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Posparto (≤30 días),6,6,620,3.9,,Sana,,2025-01-26,2025-12-17
+UY430747414,2017-06-25,8,184,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Lactando,1,1,605,2.8,,Sana,,2025-09-21,2025-08-12
+UY287484583,2017-06-10,8,199,Macho,Angus,Carne,7654321-12006,Potrero 5,,Toro,,,663,3.6,,Sana,,2025-09-06,2025-07-28
+UY071069472,2024-08-09,1,137,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Vaquillona (recría),0,0,239,3.3,,Sana,,2025-11-07,2025-11-02
+UY226541099,2019-04-06,6,264,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Vacía (ciclo),5,5,600,3.2,,Sana,,2025-07-03,2025-11-30
+UY980472440,2021-03-09,4,291,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Lactando,1,1,543,3.3,,Sana,,2025-06-06,2025-11-13
+UY609004943,2023-10-12,2,74,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Gestante,0,1,411,2.5,,Sana,,2025-01-09,2025-07-03
+UY940992571,2020-02-08,5,321,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Seca,2,3,557,3.5,,Sana,,2025-05-07,2025-10-09
+UY770854579,2018-07-03,7,176,Hembra,Braford,Carne,7654321-12006,Potrero 5,Manga Potrero 5,Gestante,3,4,611,2.3,,Enferma,Neumonia leve,2025-09-29,2025-08-25
+UY337882805,2020-10-16,5,70,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Gestante,4,5,579,3.6,,Sana,,2025-01-13,2025-12-19
+UY228306011,2018-05-22,7,218,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Seca,5,6,602,3.1,,Sana,,2025-08-18,2025-07-14
+UY703771909,2021-09-06,4,110,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Lactando,1,1,531,3.1,,Sana,,2025-12-04,2025-11-14
+UY536045484,2023-05-09,2,230,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Posparto (≤30 días),1,1,423,2.7,,Sana,,2025-08-06,2025-07-27
+UY424806516,2018-09-12,7,105,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Gestante,4,5,591,2.9,,Sana,,2025-12-09,2025-11-04
+UY949921299,2021-11-30,4,25,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Vacía (ciclo),3,3,551,3.3,,Sana,,2025-02-27,2025-08-11
+UY981987993,2018-08-13,7,135,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Seca,1,2,612,2.7,,Sana,,2025-11-09,2025-10-05
+UY690256940,2023-03-02,2,298,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Vacía (ciclo),1,1,412,2.5,,Sana,,2025-05-30,2025-11-16
+UY492688426,2024-08-09,1,137,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Vaquillona (recría),0,0,245,2.9,,Sana,,2025-11-07,2025-11-02
+UY153407200,2018-04-11,7,259,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Gestante,3,4,609,3.5,,Sana,,2025-07-08,2025-11-30
+UY284412919,2024-11-22,1,32,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Vaquillona (recría),0,0,239,3.8,,Sana,,2025-02-20,2025-08-19
+UY149926919,2023-08-07,2,140,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Lactando,1,1,430,3.0,,Sana,,2025-11-04,2025-10-25
+UY264814270,2018-03-14,7,287,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Lactando,6,6,613,2.7,,Sana,,2025-06-10,2025-11-02
+UY799925830,2024-11-27,1,27,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Vaquillona (recría),0,0,254,3.1,,Sana,,2025-02-25,2025-08-24
+UY602764446,2025-06-01,0,206,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Ternera,0,0,55,3.3,,Sana,,2025-08-30,2025-08-30
+UY578722458,2023-02-20,2,308,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Lactando,1,1,413,3.4,,Sana,,2025-05-20,2025-11-06
+UY282116655,2020-10-30,5,56,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Vacía (ciclo),4,4,582,3.9,,Sana,,2025-01-27,2025-07-06
+UY802099969,2017-12-07,8,19,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Posparto (≤30 días),7,7,599,3.3,,Sana,,2025-03-05,2025-07-28
+UY627694430,2021-12-01,4,24,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Lactando,2,2,529,3.8,,Sana,,2025-02-28,2025-08-12
+UY460027313,2023-08-14,2,133,Macho,Braford,Carne,7654321-12007,Potrero 6,,Toro,,,464,3.0,,Sana,,2025-11-11,2025-11-01
+UY964029981,2018-05-05,7,235,Macho,Braford,Carne,7654321-12006,Potrero 5,,Toro,,,653,3.2,,Sana,,2025-08-01,2025-12-24
+UY626563708,2024-06-09,1,198,Hembra,Hereford,Carne,7654321-12007,Potrero 6,,Vaquillona (recría),0,0,260,3.0,,Sana,,2025-09-07,2025-09-02
+UY428853029,2023-03-10,2,290,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Seca,1,2,410,3.0,,Sana,,2025-06-07,2025-11-24
+UY388690725,2025-09-20,0,95,Macho,Braford,Carne,7654321-12007,Potrero 6,,Ternero,,,65,3.1,,Sana,,2025-12-19,2025-12-19
+UY235493870,2020-09-18,5,98,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Seca,2,3,576,3.1,,Sana,,2025-12-16,2025-11-21
+UY148532577,2021-03-03,4,297,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Vacía (ciclo),2,2,552,3.0,,Sana,,2025-05-31,2025-11-07
+UY547099690,2019-01-18,6,342,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Posparto (≤30 días),3,3,575,3.0,,Sana,,2025-04-16,2025-09-13
+UY529908599,2019-09-29,6,88,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Gestante,0,1,579,3.6,,Sana,,2024-12-26,2025-11-26
+UY097613238,2018-04-29,7,241,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Gestante,4,5,585,3.9,,Sana,,2025-07-26,2025-12-18
+UY811514914,2021-05-21,4,218,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Seca,2,3,536,3.0,,Sana,,2025-08-18,2025-07-29
+UY050590821,2017-02-07,8,322,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Gestante,4,5,620,3.1,,Sana,,2025-05-06,2025-09-23
+UY924602213,2024-07-02,1,175,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Vaquillona (recría),0,0,260,3.4,,Sana,,2025-09-30,2025-09-25
+UY117734861,2023-01-30,2,329,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Gestante,1,2,412,4.3,,Sana,,2025-04-29,2025-10-16
+UY164112119,2018-12-09,7,17,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Gestante,2,3,603,3.2,,Sana,,2025-03-07,2025-08-04
+UY673715057,2022-09-28,3,88,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Gestante,2,2,495,3.5,,Sana,,2024-12-26,2025-12-11
+UY171779360,2021-04-07,4,262,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Lactando,1,1,525,3.7,,Sana,,2025-07-05,2025-12-12
+UY850488739,2017-05-03,8,237,Hembra,Braford,Carne,7654321-12006,Potrero 5,,Seca,7,8,600,3.3,,Sana,,2025-07-30,2025-12-17
+UY730661141,2020-12-31,4,359,Macho,Hereford,Carne,7654321-12006,Potrero 5,Manga Potrero 5,Toro,,,587,2.9,,Enferma,Anaplasmosis leve,2025-03-30,2025-09-06
+UY453290810,2018-10-17,7,70,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Gestante,2,3,586,3.4,,Sana,,2025-01-13,2025-12-09
+UY640389325,2018-07-05,7,174,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Gestante,1,2,589,3.6,,Sana,,2025-10-01,2025-08-27
+UY068212356,2018-11-07,7,49,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Vacía (ciclo),2,2,608,2.8,,Sana,,2025-02-03,2025-07-03
+UY413140753,2021-08-10,4,137,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Vacía (ciclo),1,1,538,3.3,,Sana,,2025-11-07,2025-10-18
+UY409760584,2017-08-08,8,140,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Lactando,2,2,611,3.4,,Sana,,2025-11-04,2025-09-25
+UY639830322,2018-08-10,7,138,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Seca,5,6,588,3.4,,Sana,,2025-11-06,2025-10-02
+UY502564736,2023-10-21,2,65,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Posparto (≤30 días),1,1,428,3.6,,Sana,,2025-01-18,2025-07-12
+UY568132202,2023-02-07,2,321,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Vacía (ciclo),1,1,407,3.4,,Sana,,2025-05-07,2025-10-24
+UY269953851,2021-06-25,4,183,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Seca,0,1,540,2.8,,Sana,,2025-09-22,2025-09-02
+UY594021782,2022-04-01,3,268,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Seca,2,3,499,3.4,,Sana,,2025-06-29,2025-12-11
+UY924255163,2020-07-22,5,156,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Posparto (≤30 días),1,1,579,2.9,,Sana,,2025-10-19,2025-09-24
+UY012327652,2022-04-10,3,259,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Lactando,1,1,496,3.0,,Sana,,2025-07-08,2025-12-20
+UY730448745,2021-06-05,4,203,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Lactando,2,2,541,3.1,,Sana,,2025-09-02,2025-08-13
+UY773869166,2021-10-17,4,69,Hembra,Braford,Carne,7654321-12006,Potrero 5,Manga Potrero 5,Seca,1,2,543,2.5,,Enferma,Queratoconjuntivitis infecciosa (pinkeye),2025-01-14,2025-06-28
+UY122998994,2020-05-26,5,213,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Posparto (≤30 días),4,4,558,2.7,,Sana,,2025-08-23,2025-07-29
+UY731980933,2021-11-19,4,36,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Vacía (ciclo),2,2,539,3.6,,Sana,,2025-02-16,2025-07-31
+UY950034367,2019-11-09,6,47,Hembra,Angus,Carne,7654321-12007,Potrero 6,,Gestante,2,3,591,2.8,,Sana,,2025-02-05,2025-07-10
+UY576567501,2022-02-15,3,313,Hembra,Braford,Carne,7654321-12007,Potrero 6,Manga Potrero 6,Gestante,1,2,492,3.1,,Enferma,Cojera (lesion de pezuna),2025-05-15,2025-10-27
+UY806248900,2022-02-23,3,305,Hembra,Angus,Carne,7654321-12006,Potrero 5,,Lactando,1,1,515,2.8,,Sana,,2025-05-23,2025-11-04
+UY286501362,2022-05-28,3,211,Hembra,Braford,Carne,7654321-12007,Potrero 6,,Vacía (ciclo),1,1,504,3.6,,Sana,,2025-08-25,2025-08-10
+UY825276600,2018-08-23,7,125,Hembra,Hereford,Carne,7654321-12006,Potrero 5,,Seca,5,6,586,3.2,,Sana,,2025-11-19,2025-10-15
+UY688227492,2018-08-28,7,120,Hembra,Hereford,Carne,7654321-12006,Potrero 5,Manga Potrero 5,Gestante,6,7,608,1.8,,Enferma,Cojera (lesion de pezuna),2025-11-24,2025-10-20

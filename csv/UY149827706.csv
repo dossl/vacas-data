@@ -1,0 +1,60 @@
+Hito [UY149827706],Fecha y Hora,Ubicación,Nota
+Nacimiento,2020-01-16 12:21,Potrero / corral de maternidad,Registro del nacimiento.
+Primer calostro,2020-01-16 13:44,Corral o potrero,Asegurar calostrado.
+Separacion de la madre,2020-01-17 11:42,Corral de terneros / guachera,Separacion para manejo individual.
+Colocacion de caravana oficial,2020-01-20 11:59,Manga / campo,Identificacion oficial.
+Ingreso al sistema (SNIG),2020-01-20 17:27,Oficina / app,Registro del nacimiento.
+Vacunas iniciales,2020-01-22 12:38,Manga / campo,Plan sanitario local.
+Control de ombligo y signos vitales,2020-01-23 14:17,Instalaciones sanitarias,Revision sanitaria inicial.
+Revision general de salud,2020-02-05 08:34,Campo / instalaciones,Chequeo clinico.
+Guachera (cria artificial),2020-02-05 10:28,Guachera,Cria artificial y control sanitario.
+Carga de nacimiento en SNIG,2020-02-19 11:06,Oficina / app,Cierre de registro.
+Vacunacion clostridial,2020-03-16 08:31,Tambo Antonina (7654321-12001),Vacunacion clostridial
+Destete,2020-03-29 08:44,Corrales / potrero,Paso a alimentacion solida.
+Vacunacion clostridial,2020-04-15 14:24,Tambo Antonina (7654321-12001),Vacunacion clostridial
+Desparasitacion,2020-04-15 17:58,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Seleccion,2020-05-06 17:55,Manga / campo,Seleccion de reposicion o descarte.
+Desparasitacion,2020-10-12 13:12,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Recria,2020-11-28 11:28,Campo / instalaciones lecheras,Pastoreo y ganancia de peso.
+Primer Celo,2020-12-23 10:40,Tambo Antonina (7654321-12001),Primer celo detectado.
+Segundo Celo,2021-01-09 18:03,Tambo Antonina (7654321-12001),Segundo celo detectado.
+Tercer Celo,2021-02-02 07:42,Tambo Antonina (7654321-12001),Tercer celo detectado.
+Servicio (IA o natural),2021-02-02 16:25,Tambo Antonina (7654321-12001),Servicio exitoso.
+Prenez confirmada,2021-04-03 11:32,Tambo Antonina (7654321-12001),Diagnostico de gestacion.
+Desparasitacion,2021-04-10 07:08,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Vacunacion clostridial,2021-04-15 14:07,Tambo Antonina (7654321-12001),Refuerzo anual clostridial.
+Primer servicio (hembras),2021-05-25 15:27,Campo / brete / veterinario,Inicio de vida reproductiva.
+Desparasitacion,2021-10-07 07:28,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Paricion,2021-11-12 18:47,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2021-11-13 16:10,Tambo Antonina (7654321-12001),Ingreso a rutina.
+Lactancia,2021-11-14 06:09,Tambo Antonina (7654321-12001),Inicio de lactancia.
+Primer Celo posparto,2021-12-26 15:43,Tambo Antonina (7654321-12001),Retorno al celo.
+Servicio (IA o natural),2021-12-26 18:28,Tambo Antonina (7654321-12001),Servicio exitoso.
+Prenez confirmada,2022-02-24 06:08,Tambo Antonina (7654321-12001),Diagnostico de gestacion.
+Desparasitacion,2022-04-05 08:57,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Vacunacion clostridial,2022-04-15 10:49,Tambo Antonina (7654321-12001),Refuerzo anual clostridial.
+Desparasitacion,2022-10-02 17:28,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Paricion,2022-10-05 07:15,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2022-10-06 18:41,Tambo Antonina (7654321-12001),Ingreso a rutina.
+Lactancia,2022-10-07 11:23,Tambo Antonina (7654321-12001),Inicio de lactancia.
+Servicio (IA o natural),2022-12-02 06:38,Tambo Antonina (7654321-12001),Servicio exitoso.
+Primer Celo posparto,2022-12-02 12:36,Tambo Antonina (7654321-12001),Retorno al celo.
+Prenez confirmada,2023-01-31 08:43,Tambo Antonina (7654321-12001),Diagnostico de gestacion.
+Desparasitacion,2023-03-31 07:51,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Vacunacion clostridial,2023-04-15 10:45,Tambo Antonina (7654321-12001),Refuerzo anual clostridial.
+Paricion,2023-09-11 13:23,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2023-09-12 11:28,Tambo Antonina (7654321-12001),Ingreso a rutina.
+Lactancia,2023-09-13 18:04,Tambo Antonina (7654321-12001),Inicio de lactancia.
+Desparasitacion,2023-09-27 16:54,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Servicio (IA o natural),2023-11-05 14:23,Tambo Antonina (7654321-12001),Servicio exitoso.
+Primer Celo posparto,2023-11-05 15:08,Tambo Antonina (7654321-12001),Retorno al celo.
+Prenez confirmada,2024-01-04 12:20,Tambo Antonina (7654321-12001),Diagnostico de gestacion.
+Desparasitacion,2024-03-25 11:42,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Vacunacion clostridial,2024-04-14 13:13,Tambo Antonina (7654321-12001),Refuerzo anual clostridial.
+Paricion,2024-08-14 16:17,Potrero de maternidad,Supervision del parto.
+Inicio ordene,2024-08-15 09:07,Tambo Antonina (7654321-12001),Ingreso a rutina.
+Lactancia,2024-08-16 06:47,Tambo Antonina (7654321-12001),Inicio de lactancia.
+Desparasitacion,2024-09-21 11:45,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Desparasitacion,2025-03-20 07:35,Tambo Antonina (7654321-12001),Antiparasitario programado.
+Vacunacion clostridial,2025-04-14 15:18,Tambo Antonina (7654321-12001),Refuerzo anual clostridial.
+Desparasitacion,2025-09-16 14:18,Tambo Antonina (7654321-12001),Antiparasitario programado.

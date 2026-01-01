@@ -1,6 +1,7 @@
 import os
 import random
 from datetime import date, datetime, timedelta
+from io import StringIO
 
 import numpy as np
 import pandas as pd
@@ -197,6 +198,14 @@ dicose_padron = [f"{dicose}-{padrones[loc]}" for loc in locations]
 os.makedirs("./csv", exist_ok=True)
 
 FIRST_HEAT_CSV = "./csv/Edad_Primer_Celo_Vacas_Uruguay_Por_Raza_Anios_Dias_Rango_Dias.csv"
+FIRST_HEAT_CSV_TEXT = """Tipo,Raza,Edad (años),Edad (días),Edad promedio (días),Edad promedio inferior,Edad promedio superior
+Leche,Holando (Holstein),0,335,335,244,396
+Leche,Jersey,0,289,289,274,304
+Carne,Angus (Bos taurus),1,31,396,365,426
+Carne,Hereford (Bos taurus),1,31,396,365,426
+Carne,Brangus (cruza con influencia Bos indicus),1,49,414,401,428
+Carne,Braford (influencia Bos indicus),1,92,457,426,487
+"""
 BREED_ALIASES = {
     "Holando": "Holando (Holstein)",
     "Jersey": "Jersey",
@@ -204,25 +213,12 @@ BREED_ALIASES = {
     "Hereford": "Hereford (Bos taurus)",
     "Braford": "Braford (influencia Bos indicus)",
 }
-FIRST_HEAT_FALLBACK = {
-    "Holando (Holstein)": {"mean": 335, "lower": 244, "upper": 396, "tipo": "Leche"},
-    "Jersey": {"mean": 289, "lower": 274, "upper": 304, "tipo": "Leche"},
-    "Angus (Bos taurus)": {"mean": 396, "lower": 365, "upper": 426, "tipo": "Carne"},
-    "Hereford (Bos taurus)": {"mean": 396, "lower": 365, "upper": 426, "tipo": "Carne"},
-    "Brangus (cruza con influencia Bos indicus)": {
-        "mean": 414,
-        "lower": 401,
-        "upper": 428,
-        "tipo": "Carne",
-    },
-    "Braford (influencia Bos indicus)": {"mean": 457, "lower": 426, "upper": 487, "tipo": "Carne"},
-}
 
 
 def load_first_heat_df():
     if os.path.exists(FIRST_HEAT_CSV):
         return pd.read_csv(FIRST_HEAT_CSV)
-    return None
+    return pd.read_csv(StringIO(FIRST_HEAT_CSV_TEXT))
 
 
 FIRST_HEAT_DF = load_first_heat_df()
@@ -248,29 +244,22 @@ def sample_normal_days(mean_days, std_days, min_days=None, max_days=None):
 
 def first_heat_stats(use, breed):
     alias = BREED_ALIASES.get(breed, breed)
-    if FIRST_HEAT_DF is not None:
-        row = FIRST_HEAT_DF[FIRST_HEAT_DF["Raza"] == alias]
-        if not row.empty:
-            data = row.iloc[0]
-            mean = int(data["Edad promedio (días)"])
-            lower = int(data["Edad promedio inferior"])
-            upper = int(data["Edad promedio superior"])
-            return mean, lower, upper
-        type_rows = FIRST_HEAT_DF[FIRST_HEAT_DF["Tipo"] == use]
-        if not type_rows.empty:
-            mean = int(round(type_rows["Edad promedio (días)"].mean()))
-            lower = int(round(type_rows["Edad promedio inferior"].mean()))
-            upper = int(round(type_rows["Edad promedio superior"].mean()))
-            return mean, lower, upper
-
-    fallback = FIRST_HEAT_FALLBACK.get(alias)
-    if fallback:
-        return fallback["mean"], fallback["lower"], fallback["upper"]
-
-    type_rows = [v for v in FIRST_HEAT_FALLBACK.values() if v["tipo"] == use]
-    mean = int(round(sum(v["mean"] for v in type_rows) / len(type_rows)))
-    lower = int(round(sum(v["lower"] for v in type_rows) / len(type_rows)))
-    upper = int(round(sum(v["upper"] for v in type_rows) / len(type_rows)))
+    row = FIRST_HEAT_DF[FIRST_HEAT_DF["Raza"] == alias]
+    if not row.empty:
+        data = row.iloc[0]
+        mean = int(data["Edad promedio (días)"])
+        lower = int(data["Edad promedio inferior"])
+        upper = int(data["Edad promedio superior"])
+        return mean, lower, upper
+    type_rows = FIRST_HEAT_DF[FIRST_HEAT_DF["Tipo"] == use]
+    if not type_rows.empty:
+        mean = int(round(type_rows["Edad promedio (días)"].mean()))
+        lower = int(round(type_rows["Edad promedio inferior"].mean()))
+        upper = int(round(type_rows["Edad promedio superior"].mean()))
+        return mean, lower, upper
+    mean = int(round(FIRST_HEAT_DF["Edad promedio (días)"].mean()))
+    lower = int(round(FIRST_HEAT_DF["Edad promedio inferior"].mean()))
+    upper = int(round(FIRST_HEAT_DF["Edad promedio superior"].mean()))
     return mean, lower, upper
 
 
