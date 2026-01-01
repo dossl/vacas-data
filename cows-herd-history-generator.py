@@ -575,15 +575,15 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
         current_service = postpartum_heat
 
     if status == "Vacía (ciclo)":
-        heat = ref_date - timedelta(days=random.randint(5, 25))
+        heat_days = sample_normal_days(14, 5, min_days=5, max_days=25)
+        heat = ref_date - timedelta(days=heat_days)
         add_event(events, heat, base_location, "Celo detectado", "En espera de servicio.")
     elif status == "Posparto (≤30 días)":
         if calving_dates:
             last_calving = calving_dates[-1]
         else:
-            last_calving = ref_date - timedelta(
-                days=sample_normal_days(15, 7, min_days=1, max_days=30)
-            )
+            postpartum_days = sample_normal_days(12, 6, min_days=1, max_days=30)
+            last_calving = ref_date - timedelta(days=postpartum_days)
             calving_dates.append(last_calving)
             calving_location = "Potrero de maternidad" if use == "Leche" else "Potrero de paricion"
             add_event(events, last_calving, calving_location, "Paricion", "Posparto reciente.")
@@ -598,7 +598,11 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
         add_event(events, last_calving + timedelta(days=2), base_location, "Posparto", "Periodo posparto.")
     elif status == "Lactando":
         if not calving_dates:
-            last_calving = ref_date - timedelta(days=random.randint(5, min(300, age_days)))
+            max_days = min(300, age_days) if use == "Leche" else min(240, age_days)
+            mean_days = 150 if use == "Leche" else 120
+            sd_days = 60 if use == "Leche" else 50
+            lact_days = sample_normal_days(mean_days, sd_days, min_days=20, max_days=max_days)
+            last_calving = ref_date - timedelta(days=lact_days)
             calving_dates.append(last_calving)
             calving_location = "Potrero de maternidad" if use == "Leche" else "Potrero de paricion"
             add_event(events, last_calving, calving_location, "Paricion", "Supervision del parto.")
