@@ -533,6 +533,17 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
     calving_dates = []
     has_current_pregnancy = False
     current_service = service_dates[0] if service_dates else None
+    postpartum_heat_dates = {}
+
+    def add_postpartum_heat(calving_date):
+        if calving_date in postpartum_heat_dates:
+            return postpartum_heat_dates[calving_date]
+        offset = sample_normal_days(56, 8, min_days=1)
+        heat_date = calving_date + timedelta(days=offset)
+        postpartum_heat_dates[calving_date] = heat_date
+        if heat_date <= ref_date:
+            add_event(events, heat_date, base_location, "Primer Celo posparto", "Retorno al celo.")
+        return heat_date
 
     while current_service and len(calving_dates) < parity_target:
         calving = current_service + timedelta(days=gestation_days)
@@ -548,14 +559,11 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
         else:
             add_event(events, calving + timedelta(days=2), base_location, "Lactancia", "Lactancia con ternero.")
 
+        postpartum_heat = add_postpartum_heat(calving)
         if len(calving_dates) >= parity_target:
             break
-
-        postpartum_offset = sample_normal_days(56, 8, min_days=20)
-        postpartum_heat = calving + timedelta(days=postpartum_offset)
         if postpartum_heat > ref_date:
             break
-        add_event(events, postpartum_heat, base_location, "Primer Celo posparto", "Retorno al celo.")
         add_event(events, postpartum_heat, base_location, "Servicio (IA o natural)", "Servicio exitoso.")
         service_dates.append(postpartum_heat)
         preg_check = postpartum_heat + timedelta(days=60)
@@ -584,6 +592,7 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
                     "Inicio ordene",
                     "Ingreso a rutina.",
                 )
+            add_postpartum_heat(last_calving)
         add_event(events, last_calving + timedelta(days=2), base_location, "Posparto", "Periodo posparto.")
     elif status == "Lactando":
         if not calving_dates:
@@ -618,10 +627,11 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
                     "Lactancia",
                     "Lactancia con ternero.",
                 )
+            add_postpartum_heat(last_calving)
     elif status in ["Gestante", "Seca"]:
         if not has_current_pregnancy:
             if calving_dates:
-                conception = calving_dates[-1] + timedelta(days=sample_normal_days(56, 8, min_days=20))
+                conception = add_postpartum_heat(calving_dates[-1])
             elif third_heat_date and third_heat_date <= ref_date:
                 conception = third_heat_date
             else:
