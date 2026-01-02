@@ -268,16 +268,39 @@ def random_time_on(day):
 
 
 def add_event(events, day, location, hito, note):
-    if day > ref_date:
-        return
+    if isinstance(day, datetime):
+        event_dt = day
+    else:
+        if day > ref_date:
+            return None
+        event_dt = random_time_on(day)
+    if event_dt.date() > ref_date:
+        return None
     events.append(
         {
             "hito": hito,
-            "fecha": random_time_on(day),
+            "fecha": event_dt,
             "ubicacion": location,
             "nota": note,
         }
     )
+    return event_dt
+
+
+def add_service_after_heat(events, heat_dt, base_location):
+    if heat_dt is None:
+        return None
+    latest = datetime(ref_date.year, ref_date.month, ref_date.day, 23, 59)
+    max_hours = (latest - heat_dt).total_seconds() / 3600
+    if max_hours < 1:
+        return None
+    max_hours = min(24, max_hours)
+    offset_hours = sample_normal_days(6, 4, min_days=1, max_days=int(max_hours))
+    service_dt = heat_dt + timedelta(hours=offset_hours)
+    if service_dt > latest:
+        service_dt = latest
+    add_event(events, service_dt, base_location, "Servicio (IA o natural)", "Servicio exitoso.")
+    return service_dt
 
 
 def add_age_event(events, birthdate, min_days, max_days, location, hito, note):
@@ -392,16 +415,7 @@ def add_dairy_milestones(events, birthdate, sex):
         "Seleccion",
         "Seleccion de reposicion o descarte.",
     )
-    if sex == "Hembra":
-        add_age_event(
-            events,
-            birthdate,
-            450,
-            540,
-            "Campo / brete / veterinario",
-            "Primer servicio (hembras)",
-            "Inicio de vida reproductiva.",
-        )
+
 
 
 def add_beef_milestones(events, birthdate, sex):
@@ -510,66 +524,66 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
     first_heat_date = birthdate + timedelta(days=first_heat_age)
 
     third_heat_date = None
+    service_dates = []
     if first_heat_date <= ref_date:
-        add_event(events, first_heat_date, base_location, "Primer Celo", "Primer celo detectado.")
+        first_heat_dt = add_event(events, first_heat_date, base_location, "Primer Celo", "Primer celo detectado.")
         second_heat_date = first_heat_date + timedelta(days=sample_normal_days(22, 4, min_days=1))
         if second_heat_date <= ref_date:
             add_event(events, second_heat_date, base_location, "Segundo Celo", "Segundo celo detectado.")
         third_heat_date = second_heat_date + timedelta(days=sample_normal_days(22, 4, min_days=1))
+        third_heat_dt = None
         if third_heat_date <= ref_date:
-            add_event(events, third_heat_date, base_location, "Tercer Celo", "Tercer celo detectado.")
-
-    service_dates = []
-    if third_heat_date and third_heat_date <= ref_date:
-        add_event(events, third_heat_date, base_location, "Servicio (IA o natural)", "Servicio exitoso.")
-        service_dates.append(third_heat_date)
-        preg_check = third_heat_date + timedelta(days=60)
-        if preg_check <= ref_date:
-            add_event(events, preg_check, base_location, "Prenez confirmada", "Diagnostico de gestacion.")
+            third_heat_dt = add_event(
+                events, third_heat_date, base_location, "Tercer Celo", "Tercer celo detectado."
+            )
+        if third_heat_dt:
+            service_dt = add_service_after_heat(events, third_heat_dt, base_location)
+            if service_dt:
+                service_dates.append(service_dt)
+                preg_check = service_dt + timedelta(days=60)
+                add_event(events, preg_check, base_location, "Prenez confirmada", "Diagnostico de gestacion.")
 
     if status in ["Lactando", "Posparto (≤30 días)"] and parity_target == 0 and service_dates:
         parity_target = 1
 
     calving_dates = []
-    has_current_pregnancy = False
     current_service = service_dates[0] if service_dates else None
     postpartum_heat_dates = {}
 
-    def add_postpartum_heat(calving_date):
-        if calving_date in postpartum_heat_dates:
-            return postpartum_heat_dates[calving_date]
+    def add_postpartum_heat_and_service(calving_day):
+        if calving_day in postpartum_heat_dates:
+            return postpartum_heat_dates[calving_day]
         offset = sample_normal_days(56, 8, min_days=1)
-        heat_date = calving_date + timedelta(days=offset)
-        postpartum_heat_dates[calving_date] = heat_date
-        if heat_date <= ref_date:
-            add_event(events, heat_date, base_location, "Primer Celo posparto", "Retorno al celo.")
-        return heat_date
+        heat_day = calving_day + timedelta(days=offset)
+        heat_dt = add_event(events, heat_day, base_location, "Primer Celo posparto", "Retorno al celo.")
+        service_dt = add_service_after_heat(events, heat_dt, base_location)
+        if service_dt:
+            service_dates.append(service_dt)
+            preg_check = service_dt + timedelta(days=60)
+            add_event(events, preg_check, base_location, "Prenez confirmada", "Diagnostico de gestacion.")
+        postpartum_heat_dates[calving_day] = (heat_dt, service_dt)
+        return heat_dt, service_dt
 
     while current_service and len(calving_dates) < parity_target:
-        calving = current_service + timedelta(days=gestation_days)
-        if calving > ref_date:
-            has_current_pregnancy = True
+        calving_dt = current_service + timedelta(days=gestation_days)
+        if calving_dt.date() > ref_date:
             break
-        calving_dates.append(calving)
+        calving_day = calving_dt.date()
+        calving_dates.append(calving_day)
         calving_location = "Potrero de maternidad" if use == "Leche" else "Potrero de paricion"
-        add_event(events, calving, calving_location, "Paricion", "Supervision del parto.")
+        add_event(events, calving_dt, calving_location, "Paricion", "Supervision del parto.")
         if use == "Leche":
-            add_event(events, calving + timedelta(days=1), base_location, "Inicio ordene", "Ingreso a rutina.")
-            add_event(events, calving + timedelta(days=2), base_location, "Lactancia", "Inicio de lactancia.")
+            add_event(events, calving_day + timedelta(days=1), base_location, "Inicio ordene", "Ingreso a rutina.")
+            add_event(events, calving_day + timedelta(days=2), base_location, "Lactancia", "Inicio de lactancia.")
         else:
-            add_event(events, calving + timedelta(days=2), base_location, "Lactancia", "Lactancia con ternero.")
+            add_event(events, calving_day + timedelta(days=2), base_location, "Lactancia", "Lactancia con ternero.")
 
-        postpartum_heat = add_postpartum_heat(calving)
+        _, service_dt = add_postpartum_heat_and_service(calving_day)
         if len(calving_dates) >= parity_target:
             break
-        if postpartum_heat > ref_date:
+        if service_dt is None:
             break
-        add_event(events, postpartum_heat, base_location, "Servicio (IA o natural)", "Servicio exitoso.")
-        service_dates.append(postpartum_heat)
-        preg_check = postpartum_heat + timedelta(days=60)
-        if preg_check <= ref_date:
-            add_event(events, preg_check, base_location, "Prenez confirmada", "Diagnostico de gestacion.")
-        current_service = postpartum_heat
+        current_service = service_dt
 
     if status == "Vacía (ciclo)":
         heat_days = sample_normal_days(14, 5, min_days=5, max_days=25)
@@ -592,8 +606,8 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
                     "Inicio ordene",
                     "Ingreso a rutina.",
                 )
-            add_postpartum_heat(last_calving)
         add_event(events, last_calving + timedelta(days=2), base_location, "Posparto", "Periodo posparto.")
+        add_postpartum_heat_and_service(last_calving)
     elif status == "Lactando":
         if not calving_dates:
             max_days = min(300, age_days) if use == "Leche" else min(240, age_days)
@@ -627,38 +641,22 @@ def add_repro_events(events, use, sex, breed, birthdate, age_days, status, base_
                     "Lactancia",
                     "Lactancia con ternero.",
                 )
-            add_postpartum_heat(last_calving)
+        else:
+            last_calving = calving_dates[-1]
+        add_postpartum_heat_and_service(last_calving)
     elif status in ["Gestante", "Seca"]:
-        if not has_current_pregnancy:
-            if calving_dates:
-                conception = add_postpartum_heat(calving_dates[-1])
-            elif third_heat_date and third_heat_date <= ref_date:
-                conception = third_heat_date
-            else:
-                conception = None
-            if conception and conception <= ref_date:
-                add_event(
-                    events,
-                    conception,
-                    base_location,
-                    "Servicio (IA o natural)",
-                    "Servicio exitoso.",
-                )
-                preg_check = conception + timedelta(days=60)
-                if preg_check <= ref_date:
-                    add_event(
-                        events,
-                        preg_check,
-                        base_location,
-                        "Prenez confirmada",
-                        "Diagnostico de gestacion.",
-                    )
-                has_current_pregnancy = True
-            if status == "Seca" and conception:
-                due_date = conception + timedelta(days=gestation_days)
-                dry_start = due_date - timedelta(days=60)
-                add_event(events, dry_start, base_location, "Secado", "Inicio de periodo seco.")
+        if not service_dates and calving_dates:
+            add_postpartum_heat_and_service(calving_dates[-1])
+        if status == "Seca" and service_dates:
+            last_service = max(service_dates)
+            due_date = last_service + timedelta(days=gestation_days)
+            dry_start = due_date - timedelta(days=60)
+            add_event(events, dry_start, base_location, "Secado", "Inicio de periodo seco.")
 
+    has_current_pregnancy = any(
+        (service_dt + timedelta(days=gestation_days)).date() > ref_date
+        for service_dt in service_dates
+    )
     parity_count = len(calving_dates)
     gestations_count = parity_count + (1 if has_current_pregnancy else 0)
     return parity_count, gestations_count
